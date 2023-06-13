@@ -62,4 +62,8 @@ public class MiBD {
             e.printStackTrace();
         }
     }
+    
+    public Connection getConnection() {
+        return con;
+    }
 }
